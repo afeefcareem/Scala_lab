@@ -1,8 +1,8 @@
 object q3 {
   def main(args: Array[String]) = {
-    println(formatNames("Benny")()(toUpper));
+    println(formatNames("Benny")(1,2,3,4)(toUpper));
     println(formatNames("Niroshan")(1)(toUpper));
-    println(formatNames("Saman")()(toLower));
+    println(formatNames("Saman")(0)(toLower));
     println(formatNames("Kumara")(5)(toUpper));
   }
 
